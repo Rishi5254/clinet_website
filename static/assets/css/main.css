@@ -193,7 +193,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 
 	h2 {
@@ -1786,7 +1786,7 @@ input, select, textarea {
 				content: '';
 				background-color: #ffffff;
 				display: block;
-				height: 2px;
+				height: 3px;
 				margin: 0.325em 0 0.5em 0;
 				width: 100%;
 			}
@@ -1811,6 +1811,7 @@ input, select, textarea {
 
 		header.major > p br {
 			display: none;
+
 		}
 
 	}
@@ -3957,15 +3958,21 @@ input, select, textarea {
     }
     #about-me{
         background-color : #698EC9;
-        padding : 7% 10%;
-    }
-    .about-me-heading{
-        font-size : 300%;
+        padding : 7% 5%;
     }
     .images-fas{
         text-align : center;
         padding : 1rem;
     }
-    #about{
-        padding : 0 , 10%;
+
+    .about-me-heading{
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-size : 250%;
     }
+	.about-me-font{
+	        font-family: "Source Sans Pro", Helvetica, sans-serif;
+	        font-size: 0.7em;
+            font-weight: 600;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+	}

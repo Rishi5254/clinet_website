@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><span><img src="static/images/logo.jpg" class="logo-img" alt="logo"></span></a>
+						<a href="{{ url_for('home_page') }}" class="logo"><span><img src="static/images/logo.jpg" class="logo-img" alt="logo"></span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -40,31 +40,35 @@
 					</nav>
 
 				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Dr. C.V.SIVA RAMA PRASAD</h1>
-							</header>
-							<div class="content">
-								<p>Education Researcher | Professor</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Get Started</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
+							<section id="banner" class="major">
+								<div class="inner">
+									<header class="major">
+										<h1>Dr. C.V.SIVA RAMA PRASAD</h1>
+									</header>
+									<div class="content">
+										<p>Education Researcher | Professor</p>
+										<ul class="actions">
+											<li><a href="#one" class="button next scrolly">Achievements</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
 
-				<section id="about-me">
-					<div class="container">
-						<span class="image">
-								<img src="static/images/pic01.jpg" alt="" />
-							</span>
-							<header class="major">
-								<h3><a href="{{ url_for('aboutme') }}" class="link about-me-heading">About me</a></h3>
-								<p>Assistant Professor & Head of the Department, Civil Engineering. St. Peter's Engineering College.</p>
-							</header>
-					</div>
-				</section>
+
+				<div class="container-fluid">
+					<section id="about-me">
+						<article>
+							<span class="image">
+									<img src="static/images/pic01.jpg" alt="" />
+								</span>
+								<header >
+									<h3><a href="{{ url_for('aboutme') }}" class="link about-me-heading">About me</a></h3>
+									<p class="about-me-font">Assistant Professor & Head of the Department, Civil Engineering. St. Peter's Engineering College.</p>
+								</header>
+							</article>
+					</section>
+			  	</div>
+
 
 
 
@@ -177,19 +181,16 @@
 							</section>
 						</div>
 					</section>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.facebook.com/cvsivaramaprasad/?ref=page_internal" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/c.v.sivaramprasad/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://www.linkedin.com/in/cvsivaramaprasad" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; 2022 Webginex All Rights Reserved</li>
 							</ul>
 						</div>
 					</footer>
