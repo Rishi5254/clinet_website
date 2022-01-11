@@ -3957,7 +3957,6 @@ input, select, textarea {
         padding-top: 6px;
     }
     #about-me{
-        background-color : #2a2f4a;
         padding : 7% 7%;
     }
 
@@ -3978,17 +3977,38 @@ input, select, textarea {
             font-weight: 600;
             letter-spacing: 0.25em;
             text-transform: uppercase;
+            margin-bottom : 3rem;
 	}
 
     .light-color{
-        background-color : #2c3254;
-    }
-    .dark-color{
         background-color : #242943;
     }
+    .dark-color{
+        background-color : #2c3254;
+    }
     .patent-head{
-        padding : 9rem 0;
+        padding : 10%;
     }
     .patent-child{
         padding-bottom : 4rem;
+    }
+    #contact{
+        margin-top : 6rem;
+        padding : 0 20% 2% 10%;
+    }
+
+    #footer{
+        margin : 5rem 0 0;
+    }
+    blockquote{
+        padding-bottom : 0;
+    }
+    .read-more-button{
+        margin-bottom : 1rem;
+    }
+    #patent{
+        background-color : #2c3254;
+    }
+    .patent-img{
+        padding-top : 1rem;
     }
