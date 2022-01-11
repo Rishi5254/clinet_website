@@ -3351,7 +3351,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header .logo span {
-				display: none;
+				display: inline;
 			}
 
 			#header nav a[href="#menu"] {
@@ -3954,20 +3954,23 @@ input, select, textarea {
 
     .logo-img{
         width : 20%;
-        padding-top: 6px;;
+        padding-top: 6px;
     }
     #about-me{
-        background-color : #698EC9;
-        padding : 7% 5%;
+        background-color : #2a2f4a;
+        padding : 7% 7%;
     }
+
     .images-fas{
         text-align : center;
-        padding : 1rem;
+        margin : auto;
     }
+
+
 
     .about-me-heading{
         font-family: "Source Sans Pro", Helvetica, sans-serif;
-        font-size : 250%;
+        font-size : 200%;
     }
 	.about-me-font{
 	        font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -3976,3 +3979,16 @@ input, select, textarea {
             letter-spacing: 0.25em;
             text-transform: uppercase;
 	}
+
+    .light-color{
+        background-color : #2c3254;
+    }
+    .dark-color{
+        background-color : #242943;
+    }
+    .patent-head{
+        padding : 9rem 0;
+    }
+    .patent-child{
+        padding-bottom : 4rem;
+    }

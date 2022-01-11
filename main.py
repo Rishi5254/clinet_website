@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 
+
 app = Flask(__name__)
 
 
@@ -35,9 +36,20 @@ def aboutme():
     return render_template("about-me.html")
 
 
-@app.route("/generic")
-def generic():
-    return render_template("generic.html")
+@app.route("/patents")
+def patent():
+    return render_template("patent.html")
+
+
+@app.route("/publications")
+def publications():
+    puclications = {}
+    data = db.session.query(BlogPost).all()
+    n = 0
+    for d in data:
+        puclications[n] = [d.name, d.link]
+        n += 1
+    return render_template("publications.html", data=puclications)
 
 
 @app.route("/elements")
