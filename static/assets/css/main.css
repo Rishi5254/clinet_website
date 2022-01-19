@@ -3957,7 +3957,7 @@ input, select, textarea {
         padding-top: 6px;
     }
     #about-me{
-        padding : 7% 7%;
+        padding : 12% 7%;
     }
 
     .images-fas{
@@ -4011,4 +4011,7 @@ input, select, textarea {
     }
     .patent-img{
         padding-top : 1rem;
+    }
+    .youtube{
+        padding : 3%;
     }

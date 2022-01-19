@@ -1,14 +1,6 @@
-from main import BlogPost, db
+
+a = 'https://www.youtube.com/watch?v=LM-kZPGziw0&ab_channel=CVSRPRESEARCH'
+
+b = "https://www.youtube.com/embed/LM-kZPGziw0"
 
 
-puclications = {}
-data = db.session.query(BlogPost).all()
-n = 0
-for d in data:
-    puclications[n] = [d.name, d.link]
-    n += 1
-
-print(puclications)
-for n, m in puclications.items():
-    print(n)
-    print(m)

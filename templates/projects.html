@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Publications</title>
+		<title>Projects</title>
 		<meta charset="utf-8" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -46,10 +42,10 @@
 							<section id="banner" class="major">
 								<div class="inner">
 									<span class="image">
-										<img src="static/images/pub01.jpg" alt="publication-img" />
+										<img src="static/images/pro01.jpg" alt="publication-img" />
 									</span>
 									<header class="major">
-										<h1>PUBLICATIONS</h1>
+										<h1>PROJECTS</h1>
 									</header>
 									<div class="content">
 										<p>Dedicated Excellence in Publising</p>
@@ -60,23 +56,35 @@
 
 
 
-{% for index, post in data.items() %}
-	{% if index % 2 == 0 %}
-		<section class="light-color" >
-			<div class="inner">
-				<h4>{{ post[0] }}</h4>
-				<a href="{{ post[1] }}" class="button next small read-more-button">Read More</a>
-			</div>
-		</section>
-	{% else %}
-		<section class="dark-color" >
-			<div class="inner">
-				<h4>{{ post[0] }}</h4>
-				<a href="{{ post[1] }}" class="button next small read-more-button">Read More</a>
-			</div>
-		</section>
-	{% endif %}
-{% endfor %}
+
+					<section class="light-color" >
+						<div class="inner">
+							<h4>Blasy Resistant and Fire Resistance analysis and desigm of multistorey buildings</h4>
+							<a href="https://www.researchgate.net/project/Blasy-Resistant-and-Fire-Resistance-analysis-and-desigm-of-multistorey-buildings" class="button next small read-more-button">Read More</a>
+						</div>
+					</section>
+
+					<section class="dark-color" >
+						<div class="inner">
+							<h4>Earthquake and Wind analysis of multi storey buildings using Staad.Pro and ETABS Softwares</h4>
+							<a href="https://www.researchgate.net/project/Earthquake-and-Wind-analysis-of-multi-storey-buildings-using-StaadPro-and-ETABS-Softwares" class="button next small read-more-button">Read More</a>
+						</div>
+					</section>
+
+					<section class="light-color" >
+						<div class="inner">
+							<h4>RCC AND STEEL INDUSTRIAL CHIMNEYS DESIGN - Earthquake and Wind analysis for Chimneys</h4>
+							<a href="https://www.researchgate.net/project/RCC-AND-STEEL-INDUSTRIAL-CHIMNEYS-DESIGN-Earthquake-and-Wind-analysis-for-Chimneys" class="button next small read-more-button">Read More</a>
+						</div>
+					</section>
+
+					<section class="dark-color" >
+						<div class="inner">
+							<h4>Bacterial Concrete-Self healing materials</h4>
+							<a href="https://www.researchgate.net/project/Bacterial-Concrete-Self-healing-materials" class="button next small read-more-button">Read More</a>
+						</div>
+					</section>
+
 
 
 

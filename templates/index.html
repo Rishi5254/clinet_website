@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>CVSRP</title>
@@ -65,13 +61,11 @@
 <!--									<img src="static/images/pic01.jpg" alt="about-me" />-->
 								</span>
 								<header >
-									<div class="box ">
 										<h3><a href="{{ url_for('aboutme') }}" class="link about-me-heading">About me . .</a></h3>
 										<p class="about-me-font ">DR. C. V. SIVA RAMA PRASAD CURRENTLY WORKING AS A ASSISTANT PROFESSOR IN ST.PETER'S ENGINEERING COLLEGE(AUTONOMOUS) ,HYDERABAD. I EARNED PH.D. FROM ACHARYA NAGARJUNA UNIVERSITY,INDIA AND MASTER'S DEGREE FROM STRUCTURAL ENGINEERING AT GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING, VISAKHAPATNAM. PREVIOUSLY I WORKED IN VBIT, BULEHORA UNIVERSITY, ETHIOPIA AND BHOSHO ARCHITECT PVT.LTD.</p>
 										<div class="actions">
 											<a href="{{ url_for('aboutme') }}" class="button fit ">Know me more</a>
 										</div>
-									</div>
 
 								</header>
 							</article>
@@ -87,13 +81,15 @@
 							<section id="one" class="tiles">
 								<article>
 									<span class="image">
-										<img src="static/images/pic03.jpg" alt="" />
+										<img src="static/images/pic06.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">My Journey</a></h3>
-										<p>Lorem etiam nullam</p>
+										<h3><a href="{{ url_for('patent') }}" class="link">Patents</a></h3>
+										<p>Feugiat amet tempus</p>
 									</header>
 								</article>
+
+
 								<article>
 									<span class="image">
 										<img src="static/images/pic04.jpg" alt="" />
@@ -108,17 +104,18 @@
 										<img src="static/images/pic05.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="landing.html" class="link">Projects</a></h3>
+										<h3><a href="{{ url_for('projects') }}" class="link">Projects</a></h3>
 										<p>Ipsum dolor sit amet</p>
 									</header>
 								</article>
+
 								<article>
 									<span class="image">
-										<img src="static/images/pic06.jpg" alt="" />
+										<img src="static/images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="{{ url_for('patent') }}" class="link">Patents</a></h3>
-										<p>Feugiat amet tempus</p>
+										<h3><a href="{{ url_for('youtube') }}" class="link">Youtube</a></h3>
+										<p>Lorem etiam nullam</p>
 									</header>
 								</article>
 							</section>
