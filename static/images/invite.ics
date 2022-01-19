@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Nidhi Pandey:mailto:nidhi.pandey@penthara.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=suryadevsi
+ ngh.2504@gmail.com:mailto:suryadevsingh.2504@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ritikgupta
+ 1220@outlook.com:mailto:Ritikgupta1220@outlook.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=rishik.118
+ 05224@gmail.com:mailto:rishik.11805224@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=tejarao251
+ 1@gmail.com:mailto:tejarao2511@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=akshayredd
+ y.munigala@gmail.com:mailto:akshayreddy.munigala@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=srinivasko
+ kku3372@gmail.com:mailto:srinivaskokku3372@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=venkateswa
+ raraoturaka28@gmail.com:mailto:venkateswararaoturaka28@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=varshikapa
+ sam2001@gmail.com:mailto:varshikapasam2001@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=thallavenk
+ atesh7@gmail.com:mailto:thallavenkatesh7@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=charan.125
+ 6721@gmail.com:mailto:charan.1256721@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=anishbabbl
+ u@gmail.com:mailto:anishbabblu@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Shrikantsi
+ nghkashmeawahi@gmail.com:mailto:Shrikantsinghkashmeawahi@gmail.com
+ATTENDEE;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Jasjit Cho
+ pra:mailto:jasjit@penthara.com
+ATTACH:CID:image001.jpg@01D80C7A.3C36D700
+ATTACH:CID:image002.png@01D80C7A.3C36D700
+DESCRIPTION;LANGUAGE=en-US:Hi\,\n\nGreetings from Penthara Technologies!\n\
+ nSending out a meeting invite as per your interview slot.\n\nGuidelines fo
+ r interview readiness:\n\n  1.  Ensure you have Microsoft Teams downloaded
+  and installed on your computer\n     *   Download Microsoft Teams (x86)<h
+ ttps://go.microsoft.com/fwlink/p/?linkid=869427>\n     *   Download Micros
+ oft Teams (x64)<https://go.microsoft.com/fwlink/p/?linkid=869426>\n  2.  Y
+ ou have a Webcam available as all the interview rounds will be via the Mic
+ rosoft Teams video call\n  3.  You have adequate lighting in the room so t
+ hat you are clearly visible on the camera\n  4.  There is minimum or no ba
+ ckground noise so that the interview can be conducted smoothly\n\nHow to j
+ oin Teams Meeting:\n\n  1.  Ensure you have Microsoft Teams downloaded and
+  installed on your computer. Just in case you do not have it installed\, u
+ se the above links to download and install the same.\n  2.  Ensure you are
+  NOT signed in to Microsoft Teams App\n  3.  Click the “Join Microsoft T
+ eams Meeting” link in this email\n  4.  Enter your name in the box\, Ena
+ ble Video\, Enable Audio and click Join Now\n\nPlease note: The interview 
+ session will be recorded and by accepting our meeting invite you grant us 
+ the consent for recording.\nYou can review the Job Description on our webs
+ ite www.penthara.com<https://www.penthara.com/careers/web-developer/>\nReg
+ ards\,\nNidhi Pandey\nChief Happiness Officer - HR\n[Image result for phon
+ e logo]+91-6284300850\n[Back Home]\nWebsite: www.penthara.com<http://www.p
+ enthara.com/>\nLinkedIn: www.linkedin.com/in/nidhipandey1991<http://www.li
+ nkedin.com/in/nidhipandey1991>\n\n\n______________________________________
+ __________________________________________\nMicrosoft Teams meeting\nJoin 
+ on your computer or mobile app\nClick here to join the meeting<https://tea
+ ms.microsoft.com/l/meetup-join/19%3ameeting_ZWY1OWZlNmYtNWE0Ni00MjBjLTljOT
+ ItMDVlNDFlNjRmYjZk%40thread.v2/0?context=%7b%22Tid%22%3a%2258415100-21bc-4
+ a0f-8e01-cf9a2e17e365%22%2c%22Oid%22%3a%22bff071a3-eae1-4a7b-8c3f-fe3cb656
+ 4c87%22%7d>\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meeting options
+ <https://teams.microsoft.com/meetingOptions/?organizerId=bff071a3-eae1-4a7
+ b-8c3f-fe3cb6564c87&tenantId=58415100-21bc-4a0f-8e01-cf9a2e17e365&threadId
+ =19_meeting_ZWY1OWZlNmYtNWE0Ni00MjBjLTljOTItMDVlNDFlNjRmYjZk@thread.v2&mes
+ sageId=0&language=en-US>\n________________________________________________
+ ________________________________\n\nDISCLAIMER This email and any files tr
+ ansmitted with it are intended solely for the person or the entity to whom
+  they are addressed and may contain information which is Confidential and 
+ Privileged. Any misuse of the information contained in this email\, includ
+ ing but not limited to re-transmission or dissemination of the said inform
+ ation by person or entities other than the intended recipient is unauthori
+ zed and strictly prohibited. If you are not the intended recipient of this
+  email\, please delete this email and contact the sender immediately.\n
+UID:040000008200E00074C5B7101A82E00800000000E03AAF2A7A0CD801000000000000000
+ 010000000C7663532A91B5048B0F0F987A7EB7AB8
+SUMMARY;LANGUAGE=en-US:Web Developer Interview for Job ID WD001 | Introduct
+ ion Round - LPU
+DTSTART;TZID=India Standard Time:20220119T123000
+DTEND;TZID=India Standard Time:20220119T133000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20220118T091654Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-825092122
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZWY1OWZlNmYtNWE0Ni00MjBjLTljOTItMDVlNDFlNjRmYjZk%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%2258415100-21bc-4a0f-8e01-cf9a2e17e365%22%2c%22O
+ id%22%3a%22bff071a3-eae1-4a7b-8c3f-fe3cb6564c87%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/58415100-21bc-4a0f-8e01-cf9a2e17e365/bff071a3-eae1-4a7b-8c3f-f
+ e3cb6564c87/19_meeting_ZWY1OWZlNmYtNWE0Ni00MjBjLTljOTItMDVlNDFlNjRmYjZk@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZWY1OWZlNmYtNWE0Ni00MjB
+ jLTljOTItMDVlNDFlNjRmYjZk@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:nidhi.pandey@penthara.com\;gruu\
+ ;opaque=app:conf:focus:id:teams:2:0!19:meeting_ZWY1OWZlNmYtNWE0Ni00MjBjLTl
+ jOTItMDVlNDFlNjRmYjZk-thread.v2!bff071a3eae14a7b8c3ffe3cb6564c87!584151002
+ 1bc4a0f8e01cf9a2e17e365
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams Meeting"\, "Loca
+ tionAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Loca
+ tionUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
